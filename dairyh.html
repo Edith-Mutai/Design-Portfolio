@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dairy Hub | Edith Mutai</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:#fff;
+  line-height:1.8;
+}
+
+.container{
+  width:90%;
+  max-width:900px;
+  margin:auto;
+}
+
+
+.nav{
+  padding:25px 0;
+}
+
+.nav a{
+  color:#ff6b00;
+  text-decoration:none;
+  font-size:0.9rem;
+}
+
+
+.hero{
+  padding:30px 0 10px;
+}
+
+.hero h1{
+  font-size:2.5rem;
+}
+
+.hero p{
+  color:#ff6b00;
+  margin-top:5px;
+}
+
+
+.divider{
+  height:1px;
+  background:#222;
+  margin:40px 0;
+}
+
+
+section{
+  margin-bottom:50px;
+}
+
+h2{
+  font-size:1.8rem;
+  margin-bottom:15px;
+  color:#ff6b00;
+}
+
+h3{
+  margin-top:20px;
+  margin-bottom:10px;
+  color:#ff6b00;
+}
+
+p{
+  color:#ccc;
+  margin-bottom:12px;
+}
+
+
+ul{
+  margin-left:20px;
+  margin-bottom:15px;
+}
+
+ul li{
+  margin-bottom:8px;
+  color:#ccc;
+}
+
+
+.tags{
+  margin-top:10px;
+}
+
+.tag{
+  display:inline-block;
+  background:#1a1a1a;
+  padding:6px 12px;
+  border-radius:20px;
+  margin:5px 5px 0 0;
+  font-size:0.85rem;
+}
+
+
+.image-block{
+  margin:25px 0;
+}
+
+.image-block img{
+  width:100%;
+  border-radius:10px;
+  display:block;
+}
+
+
+.image-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:15px;
+  margin-top:20px;
+}
+
+@media(min-width:700px){
+  .image-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+
+a{
+  color:#ff6b00;
+  text-decoration:none;
+}
+
+.footer{
+  text-align:center;
+  padding:40px 0;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container nav">
+  <a href="index.html">← Back to Portfolio</a>
+</div>
+
+<div class="container hero">
+  <h1>Dairy Hub</h1>
+  <p>Designing a digital platform for dairy farmers</p>
+</div>
+
+<div class="container">
+  <div class="divider"></div>
+
+  <section>
+    <h2>Introduction</h2>
+
+    <p>Dairy Hub is a concept platform designed to support dairy farmers by improving access to farm inputs, equipment, and essential resources.</p>
+
+    <p>This project was driven by a deliberate decision to design from research, not assumption — including selecting a specific regional context to better understand real user needs and constraints.</p>
+
+    <!-- <div class="image-block">
+      <img src="photos/Dairyhub Overview.png" alt="Dairy Hub overview">
+    </div> -->
+  </section>
+
+  <section>
+    <h2>The Problem</h2>
+
+    <p>Small-scale dairy farmers often operate within fragmented systems where:</p>
+
+    <ul>
+      <li>access to quality feed and equipment is inconsistent</li>
+      <li>suppliers are not centralized</li>
+      <li>information is scattered and unreliable</li>
+    </ul>
+
+    <p>This creates inefficiencies in:</p>
+
+    <ul>
+      <li>procurement</li>
+      <li>decision-making</li>
+      <li>farm productivity</li>
+    </ul>
+
+    <p>More importantly, many existing digital solutions fail because they:</p>
+
+    <ul>
+      <li>assume high digital literacy</li>
+      <li>prioritize features over usability</li>
+      <li>ignore the realities of rural and semi-urban users</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Design Objective</h2>
+
+    <p>To design a platform that:</p>
+
+    <ul>
+      <li>simplifies access to farm inputs and equipment</li>
+      <li>supports informed decision-making</li>
+      <li>works within the constraints of real users</li>
+      <li>balances usability, accessibility, and scalability</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Understanding the User</h2>
+
+    <p>Rather than designing generically, I grounded this project in user profiling and contextual thinking.</p>
+
+    <p>Key considerations included:</p>
+
+    <ul>
+      <li>varying levels of digital literacy</li>
+      <li>reliance on mobile devices</li>
+      <li>trust in digital transactions</li>
+      <li>need for clarity over complexity</li>
+    </ul>
+
+    <p>Primary users:</p>
+
+    <ul>
+      <li>small-scale dairy farmers</li>
+      <li>agricultural suppliers</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>My Role</h2>
+
+    <div class="tags">
+      <span class="tag">UX Research</span>
+      <span class="tag">User Profiling</span>
+      <span class="tag">Wireframing</span>
+      <span class="tag">UI Design (Web & Mobile)</span>
+      <span class="tag">Brand Identity Design</span>
+      <span class="tag">System Thinking</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Process</h2>
+
+    <h3>1. Research & Framing</h3>
+    <p>I began by identifying a specific problem space rather than designing a generic marketplace.</p>
+
+    <p>This allowed me to:</p>
+    <ul>
+      <li>avoid assumption-driven design</li>
+      <li>ground decisions in context</li>
+      <li>define clearer user needs</li>
+    </ul>
+
+    <h3>2. Structuring the Experience</h3>
+    <p>I mapped key user flows:</p>
+
+    <ul>
+      <li>onboarding</li>
+      <li>browsing products</li>
+      <li>evaluating options</li>
+      <li>completing purchases</li>
+    </ul>
+
+    <p>The goal was to:</p>
+    <p>reduce friction and cognitive load at every step</p>
+
+    <div class="image-grid">
+      <img src="images/flow1.jpg" alt="">
+      <img src="images/flow2.jpg" alt="">
+    </div>
+
+    <h3>3. Wireframing</h3>
+    <p>Wireframes focused on:</p>
+
+    <ul>
+      <li>clarity over density</li>
+      <li>predictable navigation</li>
+      <li>logical grouping of information</li>
+    </ul>
+
+    <p>At this stage, I prioritized:</p>
+
+    <ul>
+      <li>usability</li>
+      <li>structure</li>
+      <li>flow</li>
+    </ul>
+
+    <p>over visual detail.</p>
+
+    <h3>4. Brand Identity</h3>
+    <p>The visual system was intentionally designed to reflect:</p>
+
+    <ul>
+      <li>Green → agriculture, growth, trust</li>
+      <li>Yellow → value, energy, accessibility</li>
+    </ul>
+
+    <h3>5. UI Design</h3>
+    <p>I designed both:</p>
+
+    <ul>
+      <li>mobile interfaces (primary use case)</li>
+      <li>supporting web presence</li>
+    </ul>
+
+    <h3>6. System Thinking</h3>
+    <p>Rather than designing isolated screens, I built:</p>
+
+    <ul>
+      <li>reusable components</li>
+      <li>scalable layouts</li>
+      <li>consistent interaction patterns</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Key Design Decisions</h2>
+
+    <p><strong>Simplicity over complexity</strong></p>
+    <p>Interfaces were intentionally kept minimal to reduce cognitive load.</p>
+
+    <p><strong>Mobile-first approach</strong></p>
+    <p>Users are more likely to access the platform via mobile devices.</p>
+
+    <p><strong>Clear CTAs</strong></p>
+    <p>Actions like purchasing were made obvious and accessible.</p>
+
+    <p><strong>Visual consistency</strong></p>
+    <p>A unified design system improves usability and trust.</p>
+  </section>
+
+  <section>
+    <h2>Trade-offs & Considerations</h2>
+
+    <ul>
+      <li>Balancing simplicity with functionality</li>
+      <li>Designing for low digital literacy without oversimplifying</li>
+      <li>Ensuring scalability while maintaining clarity</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Outcome</h2>
+
+    <p>The result is a cohesive product ecosystem that:</p>
+
+    <ul>
+      <li>improves access to farm resources</li>
+      <li>simplifies user interaction</li>
+      <li>demonstrates how digital tools can support agricultural communities</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Reflection</h2>
+
+    <p>This project reinforced my approach to design as:</p>
+
+    <p>a balance between user needs, technical feasibility, and business intent</p>
+
+    <p>It also strengthened my ability to:</p>
+
+    <ul>
+      <li>design from research</li>
+      <li>think in systems</li>
+      <li>make intentional design decisions</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Design File</h2>
+    <p>
+      View full design exploration on Figma:
+      <a href="https://www.figma.com/design/6ZmbzpBpZk28fXiGwUywJ2/Dairy-Hub-Project?node-id=15-3&t=nigftTjue495XFkg-1" target="_blank">Open Figma File</a>
+    </p>
+  </section>
+
+</div>
+
+<div class="footer">
+  © 2026 Edith Mutai
+</div>
+
+</body>
+</html>

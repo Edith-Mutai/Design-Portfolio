@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edith Mutai | UI/UX Designer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#0f0f0f;
+  color:#fff;
+  line-height:1.8;
+}
+
+
+.container{
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 0;
+  flex-wrap:wrap;
+}
+
+.logo{
+  font-weight:600;
+  font-size:1.2rem;
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+}
+
+.nav span{
+  color:#ff6b00;
+}
+
+.nav a{
+  color:#ccc;
+  text-decoration:none;
+  font-size:0.9rem;
+  transition:0.3s;
+}
+
+.nav a:hover{
+  color:#ff6b00;
+}
+
+
+.hero{
+  padding:100px 0 80px;
+}
+
+.hero h1{
+  font-size:2.5rem;
+  max-width:700px;
+  line-height:1.3;
+}
+
+.hero span{
+  color:#ff6b00;
+}
+
+.hero p{
+  margin-top:25px;
+  color:#aaa;
+  max-width:600px;
+}
+
+
+.section{
+  padding:80px 0;
+}
+
+.section-title{
+  font-size:1.8rem;
+  margin-bottom:30px;
+  color:#ff6b00;
+}
+
+.about p{
+  max-width:700px;
+  color:#ccc;
+  margin-bottom:15px;
+}
+
+
+.projects{
+  display:grid;
+  gap:25px;
+}
+
+.project{
+  border:1px solid #222;
+  padding:25px;
+  border-radius:12px;
+  transition:0.3s ease;
+}
+
+.project:hover{
+  border-color:#ff6b00;
+  transform:translateY(-5px);
+}
+
+.project h3{
+  margin-bottom:10px;
+}
+
+.project p{
+  color:#aaa;
+  margin-bottom:15px;
+}
+
+.project a{
+  color:#ff6b00;
+  text-decoration:none;
+  font-size:0.9rem;
+  transition:0.3s;
+}
+
+.project a:hover{
+  opacity:0.7;
+}
+
+
+.contact p{
+  color:#aaa;
+  max-width:600px;
+  margin-bottom:20px;
+}
+
+
+.contact-links a{
+  display:inline-block;
+  margin-right:20px;
+  margin-top:10px;
+  color:#ff6b00;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.contact-links a:hover{
+  opacity:0.7;
+}
+
+
+.footer{
+  text-align:center;
+  padding:50px 0;
+  color:#777;
+}
+
+@media(min-width:768px){
+  .projects{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .hero h1{
+    font-size:3rem;
+  }
+}
+
+@media(max-width:600px){
+  .hero{
+    padding:80px 0 60px;
+  }
+
+  .hero h1{
+    font-size:2rem;
+  }
+
+  .section{
+    padding:60px 0;
+  }
+
+  .nav{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+
+  <div class="nav">
+    <div class="logo">Edith Mutai<span> - UI/UX Designer</span></div>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  
+  <div class="hero">
+    <h1>
+      I design digital experiences that are 
+      <span>intentional, functional, and built to last.</span>
+    </h1>
+
+    <p>
+      I’m a UI/UX Designer and Front-End Developer with a strong understanding of the full product lifecycle. 
+      From research and user profiling to interface design and implementation, I approach design as a balance between 
+      user needs, technical feasibility, and business intent.
+    </p>
+  </div>
+
+  
+  <div class="section about" id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+      I am a freelance UI/UX Designer based in Nairobi. My approach to design is rooted in understanding. I don’t just focus on how something looks, 
+      but how it works, who it serves, and how it will evolve over time.
+    </p>
+
+    <p>
+      I consider the entire ecosystem — the user, the developer, the business, and the product itself. 
+      This allows me to create solutions that are not only visually appealing, but also practical, scalable, and efficient.
+    </p>
+
+    <p>
+      I’ve worked across different stages of the product lifecycle including UX research, wireframing, UI design, 
+      branding, front-end development, and system thinking.
+    </p>
+  </div>
+
+
+  <div class="section" id="work">
+    <h2 class="section-title">Selected Work</h2>
+
+    <div class="projects">
+
+      <div class="project">
+        <h3>Dairy Hub</h3>
+        <p>
+          A research-driven platform designed to improve access to resources for dairy farmers through 
+          structured UX thinking and system design.
+        </p>
+        <a href="dairyh.html">View Case Study →</a>
+      </div>
+
+      <div class="project">
+        <h3>Ashumerix</h3>
+        <p>
+          A fully responsive company website built with a focus on structure, scalability, 
+          and working within real-world constraints.
+        </p>
+        <a href="ashumerix.html">View Case Study →</a>
+      </div>
+
+      <div class="project">
+        <h3>Travel Agency</h3>
+        <p>
+          A user-centered travel platform designed to guide users through discovery, exploration, 
+          and decision-making with clarity and ease.
+        </p>
+        <a href="travel.html">View Case Study →</a>
+      </div>
+
+    </div>
+  </div>
+ 
+  <div class="section contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p>
+      I’m always open to opportunities, collaborations, or conversations about design and technology.
+    </p>
+
+    <div class="contact-links">
+      <a href="mutaiedithkandie@gmail.com">Email</a>
+      <a href="www.linkedin.com/in/edith-mutai-84867a378" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    © 2026 Edith Mutai
+  </div>
+
+</div>
+
+</body>
+</html>
