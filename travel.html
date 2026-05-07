@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Agency | Edith Mutai</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:#fff;
+  line-height:1.8;
+}
+
+.container{
+  width:90%;
+  max-width:900px;
+  margin:auto;
+}
+
+
+.nav{
+  padding:25px 0;
+}
+
+.nav a{
+  color:#ff6b00;
+  text-decoration:none;
+  font-size:0.9rem;
+}
+
+.hero{
+  padding:30px 0 10px;
+}
+
+.hero h1{
+  font-size:2.5rem;
+}
+
+.hero p{
+  color:#ff6b00;
+  margin-top:5px;
+}
+
+
+.divider{
+  height:1px;
+  background:#222;
+  margin:40px 0;
+}
+
+
+section{
+  margin-bottom:50px;
+}
+
+h2{
+  font-size:1.8rem;
+  margin-bottom:15px;
+  color:#ff6b00;
+}
+
+h3{
+  margin-top:20px;
+  margin-bottom:10px;
+  color:#ff6b00;
+}
+
+p{
+  color:#ccc;
+  margin-bottom:12px;
+}
+
+
+ul{
+  margin-left:20px;
+  margin-bottom:15px;
+}
+
+ul li{
+  margin-bottom:8px;
+  color:#ccc;
+}
+
+
+.tags{
+  margin-top:10px;
+}
+
+.tag{
+  display:inline-block;
+  background:#1a1a1a;
+  padding:6px 12px;
+  border-radius:20px;
+  margin:5px 5px 0 0;
+  font-size:0.85rem;
+}
+
+
+/* ✅ FIXED IMAGE HANDLING */
+.image-block{
+  margin:25px 0;
+}
+
+.image-block img{
+  width:100%;
+  height:100%;
+  max-height:500px;
+  object-fit:cover;
+  border-radius:10px;
+  display:block;
+}
+
+
+.image-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:15px;
+  margin-top:20px;
+}
+
+.image-grid img{
+  width:100%;
+  height:100%;
+  max-height:500px;
+  object-fit:cover;
+  border-radius:10px;
+  display:block;
+}
+
+@media(min-width:700px){
+  .image-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+
+a{
+  color:#ff6b00;
+  text-decoration:none;
+}
+
+/* ✅ LIVE LINK STYLE */
+.project-link{
+  margin-top:15px;
+  display:inline-block;
+  padding:10px 18px;
+  border:1px solid #ff6b00;
+  border-radius:30px;
+  font-size:0.9rem;
+  transition:0.3s;
+}
+
+.project-link:hover{
+  background:#ff6b00;
+  color:#000;
+}
+
+
+.footer{
+  text-align:center;
+  padding:40px 0;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container nav">
+  <a href="index.html">← Back to Portfolio</a>
+</div>
+
+<div class="container hero">
+  <h1>Travel Agency</h1>
+  <p>Designing a user-centered travel discovery experience</p>
+</div>
+
+<div class="container">
+  <div class="divider"></div>
+
+
+  <section>
+    <h2>Introduction</h2>
+
+    <p>The Travel Agency website is a user-focused platform designed to simplify how people discover and plan travel experiences.</p>
+
+    <p>The project focused on creating a clear, engaging, and intuitive journey from exploration to decision-making, while maintaining a visually appealing interface.</p>
+
+    <p>Unlike content-heavy corporate websites, this project emphasized user flow, emotional engagement, and clarity in navigation.</p>
+
+    <p>The goal was to design an experience that not only looks appealing, but guides users naturally toward action.</p>
+
+    <div class="image-block">
+      <img src="photos/tourhero.png" alt="Travel website overview">
+    </div>
+
+ 
+    <a href="https://edith-travel-agency.netlify.app/" class="project-link" target="_blank">View Live Website</a>
+  </section>
+
+  
+  <section>
+    <h2>The Problem</h2>
+
+    <p>Many travel websites struggle with:</p>
+
+    <ul>
+      <li>overwhelming users with too many options</li>
+      <li>unclear navigation paths</li>
+      <li>cluttered layouts that reduce usability</li>
+      <li>lack of a structured journey from discovery to booking</li>
+    </ul>
+
+    <p>Users often:</p>
+
+    <ul>
+      <li>don’t know where to start</li>
+      <li>get lost in too many choices</li>
+      <li>abandon the process before making a decision</li>
+    </ul>
+
+    <p>This creates a key challenge:</p>
+
+    <p>how do you design a system that encourages exploration without overwhelming the user?</p>
+  </section>
+
+
+  <section>
+    <h2>Design Objective</h2>
+
+    <p>To design a travel platform that:</p>
+
+    <ul>
+      <li>simplifies discovery of destinations</li>
+      <li>guides users through a clear journey</li>
+      <li>reduces cognitive overload</li>
+      <li>encourages interaction and exploration</li>
+      <li>supports decision-making without friction</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Understanding the User</h2>
+
+    <p>The design focused on users who:</p>
+
+    <ul>
+      <li>are exploring travel options</li>
+      <li>may not have a fixed destination in mind</li>
+      <li>rely heavily on visuals and first impressions</li>
+      <li>need clear structure to make decisions</li>
+    </ul>
+
+    <p>Key considerations:</p>
+
+    <ul>
+      <li>users scan quickly rather than read deeply</li>
+      <li>visuals play a major role in engagement</li>
+      <li>navigation must feel effortless and intuitive</li>
+    </ul>
+  </section>
+
+  
+  <section>
+    <h2>My Role</h2>
+
+    <div class="tags">
+      <span class="tag">UI Design</span>
+      <span class="tag">UX Structuring</span>
+      <span class="tag">Front-End Development</span>
+      <span class="tag">Layout Design</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Process</h2>
+
+    <h3>1. Structuring the Journey</h3>
+    <p>The core of this project was defining a clear user journey:</p>
+
+    <ul>
+      <li>landing → discovery → exploration → decision</li>
+    </ul>
+
+    <h3>2. Home section Design</h3>
+    <p>The home section was treated as the entry point to exploration.</p>
+
+    <p>Focus areas:</p>
+
+    <ul>
+      <li>strong visual hierarchy</li>
+      <li>clear call-to-action</li>
+      <li>immediate engagement</li>
+    </ul>
+
+
+    <h3>3. Content Organization</h3>
+    <p>Destinations and experiences were structured to:</p>
+
+    <ul>
+      <li>feel organized, not overwhelming</li>
+      <li>allow easy comparison</li>
+      <li>guide users without forcing decisions</li>
+    </ul>
+
+    <h3>4. Navigation Design</h3>
+    <p>Navigation was designed to be:</p>
+
+    <ul>
+      <li>simple</li>
+      <li>predictable</li>
+      <li>easy to scan</li>
+    </ul>
+
+    <h3>5. Visual Design</h3>
+    <p>The visual approach focused on:</p>
+
+    <ul>
+      <li>high-impact imagery</li>
+      <li>clean layout structure</li>
+      <li>consistent spacing and alignment</li>
+    </ul>
+
+
+    <h3>6. Responsiveness</h3>
+    <p>The website was designed to work seamlessly across:</p>
+
+    <ul>
+      <li>mobile</li>
+      <li>tablet</li>
+      <li>desktop</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Key Design Decisions</h2>
+
+    <p><strong>Visual-first approach</strong></p>
+    <p>Travel decisions are highly influenced by imagery, so visuals were prioritized.</p>
+
+    <p><strong>Guided exploration</strong></p>
+    <p>Users are led through the experience rather than left to navigate blindly.</p>
+
+    <p><strong>Simplicity in structure</strong></p>
+    <p>Reduced complexity to improve usability.</p>
+
+    <p><strong>Clear CTAs</strong></p>
+    <p>Encouraged users to take action without confusion.</p>
+  </section>
+
+
+  <section>
+    <h2>Trade-offs & Considerations</h2>
+
+    <ul>
+      <li>balancing rich visuals with performance</li>
+      <li>avoiding clutter while still showcasing options</li>
+      <li>designing for both exploration and decision-making</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Outcome</h2>
+
+    <p>The result is a clean, engaging travel platform that:</p>
+
+    <ul>
+      <li>simplifies discovery</li>
+      <li>enhances user engagement</li>
+      <li>supports decision-making</li>
+      <li>provides a smooth and intuitive experience</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h2>Reflection</h2>
+
+    <p>This project strengthened my ability to:</p>
+
+    <ul>
+      <li>design for user behavior and decision-making</li>
+      <li>create intuitive user journeys</li>
+      <li>balance aesthetics with usability</li>
+    </ul>
+
+    <p>It reinforced the idea that:</p>
+
+    <p>good UX is not just about how something looks, but how it guides users through an experience</p>
+  </section>
+
+
+</div>
+
+<div class="footer">
+  © 2026 Edith Mutai
+</div>
+
+</body>
+</html>
