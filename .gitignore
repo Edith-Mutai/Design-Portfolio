@@ -1,0 +1,30 @@
+# Ignore OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore archives and packages
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore design/source files that are usually too large for repos
+*.psd
+*.ai
+*.sketch
+*.xcf
+*.pdf
+
+# Ignore npm/yarn package directories if added later
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
